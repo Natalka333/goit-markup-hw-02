@@ -9,44 +9,17 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
-.header {}
-
-.header-navigation {}
-
-.header-logo {}
-
-.logo {}
-
-.header-list {}
-
-.list {}
-
-.header-item {}
-
-.header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
+.header-list .link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
     
-    letter-spacing: 0.02em;
+        /* NAVY BLUE */
     
-    /* NAVY BLUE */
-    
-    color: #2E2F42;
+        color: #2E2F42;
 }
-
-.link {}
-
-.address {}
-
-.address-list {}
-
-.address-item {}
-
-.address-mail {}
-
-.address-tel {}
 
 
 
