@@ -1,5 +1,17 @@
+:root {
+    /* H 1 2 3 */
+    --primary-text-color: #2E2F42;
+    /* P */
+    --title-text-color: #434455;
+    /* BTN */
+    --button-color: #4D5AE5;
+
+}
+
 body{
 font-family: 'Roboto', sans-serif;
+
+
 }
 
 .list {
@@ -37,26 +49,70 @@ border-bottom: 1px solid #E7E9FC;
 /* цвет studio низ
 /* color: #F4F4FD;CLOUD */
 
+/* заголовок героя 
+color: #FFFFFF; */
+/* текст футера
+  color: #E7E9FC; */
 
+/*  кнопки 2 стр
+    color: #4D5AE5; */
 
+/* HEADER */
 
 .header-list .link {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        /* identical to box height, or 150% */
         letter-spacing: 0.02em;
-    
-        /* NAVY BLUE */
-    
-        color: #2E2F42;
+        color: var(--primary-text-color);
 }
 .header-list .link:hover,
 .header-list .link:focus{
     color: #b41010
 }
 .address-list .link {
-    color:#434455;
+    color:var(--title-text-color);
 }
+
+/* HERO */
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero .subject {
+    color: #FFFFFF;
+}
+
+
+/* SECTION */
+
+.feature-list .title {
+    color: var(--primary-text-color):
+}
+.feature-list .subtitle {
+    color: var(--title-text-color);
+}
+
+/* IMAGES */
+
+.section-images {
+    color: var(--primary-text-color);
+}
+
+/* OUR TEAM */
+.feature-list .title {
+    color: var(--primary-text-color):
+}
+.feature-list .subtitle {
+    color: var(--title-text-color);
+}
+
+/* FOOTER */
+.footer {
+    background-color: #2E2F42;
+}
+.footer .content {
+    color: #E7E9FC;
+}
+
 
 
