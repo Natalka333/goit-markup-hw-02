@@ -1,28 +1,5 @@
-:root {
-    /* H 1 2 3 */
-    --primary-text-color: #2E2F42;
-    /* P */
-    --title-text-color: #434455;
-    /* BTN */
-    --button-color: #4D5AE5;
-}
-
-body {
-font-family: 'Roboto', sans-serif;
-background-color: #E5E5E5;
-}
-
-.list {
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
-
-
-
 /*фон героя и футера /* NAVY BLUE */
-/* background: #2E2F42; */ 
+/* background: #2E2F42; */
 
 /* основной фон */
 /*  background: #E5E5E5;*/
@@ -54,6 +31,27 @@ color: #FFFFFF; */
 
 /*  кнопки 2 стр
     color: #4D5AE5; */
+
+:root {
+    /* H 1 2 3 */
+    --primary-text-color: #2E2F42;
+    /* P */
+    --title-text-color: #434455;
+    /* BTN */
+    --button-color: #4D5AE5;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #E5E5E5;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 
 /* HEADER */
 .header {
@@ -91,7 +89,7 @@ color: #FFFFFF; */
     background: #E5E5E5;
 }
 .feature-list .title {
-    color: var(--primary-text-color):
+    color: var(--primary-text-color);
 }
 .feature-list .subtitle {
     color: var(--title-text-color);
@@ -108,7 +106,7 @@ color: #FFFFFF; */
     background-color: #F4F4FD;
 }
 .team .title {
-    color: var(--primary-text-color):
+    color: var(--primary-text-color);
 }
 .team .subtitle {
     color: var(--title-text-color);
