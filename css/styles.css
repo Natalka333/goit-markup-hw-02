@@ -5,13 +5,11 @@
     --title-text-color: #434455;
     /* BTN */
     --button-color: #4D5AE5;
-
 }
 
-body{
+body {
 font-family: 'Roboto', sans-serif;
-
-
+background-color: #E5E5E5;
 }
 
 .list {
