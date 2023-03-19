@@ -58,7 +58,9 @@ color: #FFFFFF; */
     color: #4D5AE5; */
 
 /* HEADER */
-
+.header {
+    background-color: #FFFFFF;
+}
 .header-list .link {
         font-weight: 500;
         font-size: 16px;
@@ -84,7 +86,9 @@ color: #FFFFFF; */
 
 
 /* SECTION */
-
+.section {
+    background: #E5E5E5;
+}
 .feature-list .title {
     color: var(--primary-text-color):
 }
@@ -99,10 +103,13 @@ color: #FFFFFF; */
 }
 
 /* OUR TEAM */
-.feature-list .title {
+.team {
+    background-color: #F4F4FD;
+}
+.team .title {
     color: var(--primary-text-color):
 }
-.feature-list .subtitle {
+.team .subtitle {
     color: var(--title-text-color);
 }
 
@@ -113,6 +120,9 @@ color: #FFFFFF; */
 .footer .content {
     color: #E7E9FC;
 }
+
+
+
 
 
 
