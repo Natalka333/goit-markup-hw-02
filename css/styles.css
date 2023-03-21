@@ -134,22 +134,20 @@ background-color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.hero-section .btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    
-
-.hero-section .btn:hover,
-.hero-section .btn:focus {
-        background-color: #4D5AE5;
+.hero .btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
 }
 
-
+.hero .btn:hover,
+.hero .btn:focus {
+        background-color: #404bbf;
+}
 
 /* SECTION */
 .section {
@@ -187,13 +185,21 @@ background-color: #FFFFFF;
 .section-team {
     background-color: #F4F4FD;
 }
-.team .title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+.team .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .team .subtitle {
@@ -206,23 +212,48 @@ background-color: #FFFFFF;
 }
 
 /* SECTION BUTTON META*/
-.meta .navigation {
-    overflow: hidden;
+.meta {}
+
+.meta-section {}
+
+.hidden-navigation {}
+
+.meta-btn {}
+
+.list {
+    list-style: none;
 }
-.meta-list .btn {
-    height: 48px;
-        background: #F4F4FD;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-    
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--button-color);
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404bbf;
 }
 
 /* WORK */
 .work .title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .work .subtitle {
-    color: var(--primary-text-color);
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
 }
 
 /* FOOTER */
@@ -242,6 +273,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    text-decoration: none
 }
 .footer .logos {
     font-family: 'Raleway';
@@ -253,6 +285,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+    text-decoration: none
 }
 .footer .content {
     font-weight: 400;
