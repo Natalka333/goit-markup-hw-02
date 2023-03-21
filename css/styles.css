@@ -73,7 +73,6 @@ background-color: #FFFFFF;
     
 
 .header-navigation .logo {
-    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -86,7 +85,6 @@ background-color: #FFFFFF;
 
 }
 .header-navigation .logos {
-    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -228,13 +226,7 @@ background-color: #FFFFFF;
 
 .hidden-navigation {}
 
-.meta-btn {}
-
-.list {
-    list-style: none;
-}
-
-.btn {
+.meta-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -243,11 +235,14 @@ background-color: #FFFFFF;
     cursor: pointer;
     color: #FFFFFF;
     background-color: #F4F4FD;
-}
+        }
 .btn:hover,
 .btn:focus {
     background-color: var(--button-color);
     color: #FFFFFF;
+}
+.list {
+    list-style: none;
 }
 
 /* WORK */
