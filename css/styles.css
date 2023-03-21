@@ -44,7 +44,14 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
-
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
 .list {
     list-style: none;
 }
@@ -126,21 +133,24 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
 .hero-section .btn {
-    background-color: #4D5AE5
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-}
+    cursor: pointer;
+    
 
 .hero-section .btn:hover,
 .hero-section .btn:focus {
-    background-color: #404BBF;
+        background-color: #4D5AE5;
 }
+
+
+
 /* SECTION */
 .section {
     background: #E5E5E5;
