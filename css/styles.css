@@ -58,6 +58,9 @@ background-color: #FFFFFF;
 .link {
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 
 /* HEADER */
 .header {
@@ -66,11 +69,6 @@ background-color: #FFFFFF;
 .footer {
     background-color: var(--primary-text-color);
 }
-
-.header-navigation {
-    text-transform: uppercase;
-}
-    
 
 .header-navigation .logo {
     font-weight: 800;
@@ -247,6 +245,14 @@ background-color: #FFFFFF;
 
 /* WORK */
 
+.title-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 .work-list .link {
     font-family: 'Roboto';
     font-weight: 500;
