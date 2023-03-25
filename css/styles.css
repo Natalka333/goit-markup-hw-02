@@ -137,13 +137,14 @@ font-style: normal;
     text-transform: none;
     background-color: var(--primary-text-color);
 }
-.hero-section .subject {
+.hero .hero-subject {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-background);
+    background-color: var(--primary-text-color);
 }
 
 .hero .hero-btn {
@@ -192,8 +193,6 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-text-color);
-}
-.section .list { 
 }
 /* OUR TEAM */
 .section-team {
