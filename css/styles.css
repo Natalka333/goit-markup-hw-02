@@ -195,7 +195,9 @@ font-style: normal;
     color: var(--primary-text-color);
 }
 /* OUR TEAM */
-
+.team {
+    background-color: var(--light);
+}
 .team-titl {
     font-weight: 700;
     font-size: 36px;
@@ -205,30 +207,25 @@ font-style: normal;
     text-transform: capitalize;
     color: var(--primary-text-color);
 }
-
 .team-item {
     background-color: #ffffff;
 }
-
-.link .title {
+.title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.link .subtitle {
+.subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
-.team .link {
-    background-color: var(--white-background);
-}
+.team-list {}
+.list {}
 
 /* SECTION BUTTON META*/
 .meta {}
