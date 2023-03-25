@@ -243,12 +243,12 @@ font-style: normal;
     cursor: pointer;
     color: var(--button-color);
     background-color: var(--light);
-        }
+}
 
 .btn:hover,
 .btn:focus {
     background-color: var(--pressed-state);
-    color: var(--white-background));
+    color: var(--white-background);
 }
 .list {
     list-style: none;
