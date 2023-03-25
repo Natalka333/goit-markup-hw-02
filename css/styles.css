@@ -52,6 +52,7 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: var(--button-color);
 }
 .list {
     list-style: none;
@@ -110,9 +111,8 @@ a {
 .header-list .link:focus {
     color: var(--pressed-state)
 }
-
-.address-list {
-font-style: normal;
+.address {
+    font-style: normal;
 }
 .address-list .link {
     font-weight: 400;
