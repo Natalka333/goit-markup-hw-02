@@ -137,7 +137,7 @@ font-style: normal;
     text-transform: none;
     background-color: var(--primary-text-color);
 }
-.hero .hero-subject {
+.hero-subject {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -147,7 +147,7 @@ font-style: normal;
     background-color: var(--primary-text-color);
 }
 
-.hero .hero-btn {
+.hero-btn {
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
