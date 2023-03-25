@@ -195,15 +195,8 @@ font-style: normal;
     color: var(--primary-text-color);
 }
 /* OUR TEAM */
-.section-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark);
-    background-color: var(--light);
-}
-.section-title {
+
+.team-titl {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -212,11 +205,12 @@ font-style: normal;
     text-transform: capitalize;
     color: var(--primary-text-color);
 }
-.team-list link {
+
+.team-item {
     background-color: #ffffff;
 }
 
-.team-list link .title {
+.link .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -224,7 +218,7 @@ font-style: normal;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.team-list link .subtitle {
+.link .subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
