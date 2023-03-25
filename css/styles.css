@@ -119,12 +119,10 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color:var(--title-text-color);
 }
 .address-list .link:hover,
 .address-list .link:focus {
-    font-style: normal;
     color: var(--pressed-state);
 }
 /* HERO */
