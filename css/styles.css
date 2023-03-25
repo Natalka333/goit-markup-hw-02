@@ -155,7 +155,7 @@ font-style: normal;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--white-background);
-    background-color: var(--button-color) ;
+    background-color: var(--button-color);
 }
 
 .hero .hero-btn:hover,
