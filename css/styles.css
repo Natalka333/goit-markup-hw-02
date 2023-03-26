@@ -42,7 +42,6 @@
 body {
 font-family: 'Roboto', sans-serif;
 color: var(--title-text-color);
-background-color: var(--white-background);
 font-style: normal;
 }
 .btn {
@@ -161,6 +160,10 @@ a {
 .hero-btn:focus {
     background-color: var(--pressed-state);
 }
+
+
+
+
 
 /* SECTION */
 .section {
