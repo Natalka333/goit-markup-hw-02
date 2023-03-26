@@ -42,6 +42,7 @@
 body {
 font-family: 'Roboto', sans-serif;
 color: var(--title-text-color);
+background-color: var(--white-background);
 font-style: normal;
 }
 .btn {
@@ -153,7 +154,7 @@ a {
     color: var(--white-background);
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: #4D5AE5;
+    background-color: var(--button-color);
 }
 
 .hero-btn:hover,
