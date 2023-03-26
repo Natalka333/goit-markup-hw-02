@@ -45,14 +45,7 @@ color: var(--title-text-color);
 background-color: var(--white-background);
 font-style: normal;
 }
-.btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
+
 .list {
     list-style: none;
 }
@@ -125,6 +118,7 @@ a {
     color: var(--pressed-state);
 }
 /* HERO */
+
 .hero-section {
     font-size: 56px;
     line-height: 1.07;
@@ -152,7 +146,6 @@ a {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--white-background);
-    letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--button-color);
 }
@@ -161,20 +154,18 @@ a {
     background-color: var(--pressed-state);
 }
 
-/* SECTION */
+/* SECTION HIDDEN OPPORUNITY*/
 .section {
-    background: #E5E5E5;
 }
 
-.feature-list .title {
+.title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.feature-list .subtitle {
-    font-weight: 400;
+.subtitle {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -232,7 +223,7 @@ a {
 
 .hidden-navigation {}
 
-.list .btn {
+.btn {
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
