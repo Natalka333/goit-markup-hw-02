@@ -236,9 +236,7 @@ a {
     background-color: var(--pressed-state);
     color: var(--white-background);
 }
-.list {
-    list-style: none;
-}
+
 
 /* WORK */
 
