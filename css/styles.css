@@ -106,14 +106,20 @@ a {
 .address {
     font-style: normal;
 }
-.address-item {
+.address .link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--title-text-color);
 }
-
+.address .link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
 .address-list .link:hover,
 .address-list .link:focus {
     color: var(--pressed-state);
