@@ -153,7 +153,7 @@ a {
     color: var(--white-background);
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: var(--button-color);
+    background: #4D5AE5;
 }
 
 .hero-btn:hover,
