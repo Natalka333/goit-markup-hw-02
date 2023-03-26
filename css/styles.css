@@ -145,7 +145,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: var(--white-background);
     background-color: var(--button-color);
 }
 .hero-btn:hover,
@@ -155,6 +154,7 @@ a {
 
 /* SECTION HIDDEN OPPORUNITY*/
 .section {
+
 }
 
 .title {
@@ -213,6 +213,7 @@ a {
     color: var(--title-text-color);
 }
 
+
 /* SECTION BUTTON META*/
 .meta {}
 
@@ -236,7 +237,9 @@ a {
     background-color: var(--pressed-state);
     color: var(--white-background);
 }
-
+.list {
+    list-style: none;
+}
 
 /* WORK */
 
