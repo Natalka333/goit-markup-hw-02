@@ -156,15 +156,10 @@ a {
     cursor: pointer;
     background-color: var(--button-color);
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--pressed-state);
 }
-
-
-
-
 
 /* SECTION */
 .section {
