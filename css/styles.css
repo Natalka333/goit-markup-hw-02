@@ -151,7 +151,7 @@ a {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--white-background);
-    background-color: #4D5AE5;
+    background-color: var(--button-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
